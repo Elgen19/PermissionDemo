@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Permission Activity</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="demo_text">Permission Demo</string>
+    <string name="take_a_photo_title">Camera Permission</string>
+    <string name="get_location_title">Location Permission</string>
+    <string name="access_storage_title">Storage Permission</string>
+    <string name="take_a_photo_text">Take A Photo</string>
+    <string name="get_location_text">Get Location</string>
+    <string name="access_storage_text">Access Storage</string>
+    <string name="photo_content_description">picture of a photographer in vector format</string>
+    <string name="location_content_description">picture of a locator in vector format</string>
+    <string name="storage_content_description">picture of a man with folder in vector format</string>
+
+</resources>

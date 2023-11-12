@@ -1,0 +1,145 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/delft_blue"
+        android:padding="16dp">
+
+        <!-- CardView for holding the image, text, and button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Image View -->
+                <ImageView
+                    android:id="@+id/cardImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/photographer"
+                    android:contentDescription="@string/photo_content_description" />
+
+                <!-- Text -->
+                <TextView
+                    android:id="@+id/pictureCardText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/take_a_photo_title"
+                    android:textColor="@color/delft_blue"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/cameraButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/saffron"
+                    android:padding="8dp"
+                    android:text="@string/take_a_photo_text" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView for holding the image, text, and button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Image View -->
+                <ImageView
+                    android:id="@+id/locationImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/locations"
+                    android:contentDescription="@string/location_content_description" />
+
+                <!-- Text -->
+                <TextView
+                    android:id="@+id/locationCardText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/get_location_title"
+                    android:textColor="@color/delft_blue"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/locationButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/saffron"
+                    android:padding="8dp"
+                    android:text="@string/get_location_text" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView for holding the image, text, and button -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Image View -->
+                <ImageView
+                    android:id="@+id/fileImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/files"
+                    android:contentDescription="@string/storage_content_description" />
+
+                <!-- Text -->
+                <TextView
+                    android:id="@+id/fileCardText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/access_storage_title"
+                    android:textColor="@color/delft_blue"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <!-- Button -->
+                <Button
+                    android:id="@+id/storageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/saffron"
+                    android:padding="8dp"
+                    android:text="@string/access_storage_text" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

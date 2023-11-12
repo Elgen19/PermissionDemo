@@ -1,0 +1,38 @@
+<!-- activity_main.xml -->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/delft_blue"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/cardImageView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:src="@drawable/permission"
+        android:contentDescription="@string/photo_content_description" />
+
+    <TextView
+        android:id="@+id/demoPermissionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_text"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started_text"
+        android:background="@color/saffron"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        tools:ignore="VisualLintButtonSize" />
+</androidx.appcompat.widget.LinearLayoutCompat>
